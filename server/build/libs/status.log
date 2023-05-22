@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="windows-1251" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-05-19T19:28:56.702888700Z</date>
+  <millis>1684524536702</millis>
+  <nanos>888700</nanos>
+  <sequence>0</sequence>
+  <logger>ServerLogger</logger>
+  <level>INFO</level>
+  <class>com.alame.lab6.server.App</class>
+  <method>start</method>
+  <thread>1</thread>
+  <message>сервер запущен</message>
+</record>
+<record>
+  <date>2023-05-19T19:29:09.510070500Z</date>
+  <millis>1684524549510</millis>
+  <nanos>70500</nanos>
+  <sequence>1</sequence>
+  <logger>ServerLogger</logger>
+  <level>INFO</level>
+  <class>com.alame.lab6.server.network.RequestHandler</class>
+  <method>ReceiveThenSend</method>
+  <thread>1</thread>
+  <message>получен новый запрос com.alame.lab6.common.request.GetMaxByCreationDateRequest@48140564</message>
+</record>
+<record>
+  <date>2023-05-19T19:29:09.551154300Z</date>
+  <millis>1684524549551</millis>
+  <nanos>154300</nanos>
+  <sequence>2</sequence>
+  <logger>ServerLogger</logger>
+  <level>INFO</level>
+  <class>com.alame.lab6.server.network.RequestHandler</class>
+  <method>ReceiveThenSend</method>
+  <thread>1</thread>
+  <message>отправлен ответ на запрос</message>
+</record>
+<record>
+  <date>2023-05-19T19:29:16.627669700Z</date>
+  <millis>1684524556627</millis>
+  <nanos>669700</nanos>
+  <sequence>3</sequence>
+  <logger>ServerLogger</logger>
+  <level>INFO</level>
+  <class>com.alame.lab6.server.network.RequestHandler</class>
+  <method>ReceiveThenSend</method>
+  <thread>1</thread>
+  <message>получен новый запрос com.alame.lab6.common.request.GetAllValuesRequest@15975490</message>
+</record>
+<record>
+  <date>2023-05-19T19:32:37.647782800Z</date>
+  <millis>1684524757647</millis>
+  <nanos>782800</nanos>
+  <sequence>4</sequence>
+  <logger>ServerLogger</logger>
+  <level>INFO</level>
+  <class>com.alame.lab6.server.network.RequestHandler</class>
+  <method>ReceiveThenSend</method>
+  <thread>1</thread>
+  <message>отправлен ответ на запрос</message>
+</record>
